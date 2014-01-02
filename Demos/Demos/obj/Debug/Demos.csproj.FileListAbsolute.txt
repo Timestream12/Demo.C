@@ -1,0 +1,2 @@
+C:\Users\User\AppData\Local\Temporary Projects\Demos\bin\Debug\Demos.exe.config
+C:\Users\User\Documents\Visual Studio 2012\Projects\Demos\Demos\bin\Debug\Demos.exe.config
