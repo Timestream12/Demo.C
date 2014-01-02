@@ -27,6 +27,7 @@ namespace Demos
                 //or
                 //Image image = Image.FromFile(ofd.FileName);
                 //pictureBox1.Image = image;
+                //test
             }
         }
     }
