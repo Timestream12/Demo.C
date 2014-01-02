@@ -1,2 +1,3 @@
 Added this line.
 added second line.
+Renamed the project folder containing folder to Dancing.
