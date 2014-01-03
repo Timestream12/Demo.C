@@ -11,6 +11,7 @@
     <AssemblyName>Demos</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -23,7 +24,6 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
@@ -47,8 +47,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>
-    </StartupObject>
+    <StartupObject>Demos.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -69,6 +68,18 @@
     <Compile Include="ListView.Designer.cs">
       <DependentUpon>ListView.cs</DependentUpon>
     </Compile>
+    <Compile Include="notifyicon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="notifyicon.Designer.cs">
+      <DependentUpon>notifyicon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="openfileswithapp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="openfileswithapp.Designer.cs">
+      <DependentUpon>openfileswithapp.cs</DependentUpon>
+    </Compile>
     <Compile Include="Picture Box.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -77,8 +88,23 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="settings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="settings.Designer.cs">
+      <DependentUpon>settings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="toolstrip statusstrip.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="toolstrip statusstrip.Designer.cs">
+      <DependentUpon>toolstrip statusstrip.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="ListView.resx">
       <DependentUpon>ListView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="notifyicon.resx">
+      <DependentUpon>notifyicon.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Picture Box.resx">
       <DependentUpon>Picture Box.cs</DependentUpon>
@@ -92,6 +118,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="settings.resx">
+      <DependentUpon>settings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="toolstrip statusstrip.resx">
+      <DependentUpon>toolstrip statusstrip.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

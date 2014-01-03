@@ -32,8 +32,30 @@ namespace Demos
         {
             if (listView1.SelectedItems.Count != 0)
             {
-                MessageBox.Show(listView1.SelectedItems[0].SubItems[0].Text);
+                //MessageBox.Show(listView1.SelectedItems[0].SubItems[0].Text);
+                foreach (ListViewItem lvi in listView1.SelectedItems)
+                    MessageBox.Show(lvi.SubItems[0].Text);
             }
+        }
+
+        private void removeSelectedItemsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (listView1.SelectedItems.Count != 0)
+            {
+                foreach (ListViewItem lvi in listView1.SelectedItems)
+                    lvi.Remove();
+            }
+        }
+
+        private void removeAllItemsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            listView1.Items.Clear();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            foreach (ListViewItem lvi in listView1.SelectedItems)
+                if (lvi.Checked) lvi.Remove();
         }
     }
 }

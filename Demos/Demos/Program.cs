@@ -16,7 +16,7 @@ namespace Demos
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ListView());
+            Application.Run(new settings());
         }
     }
 }
