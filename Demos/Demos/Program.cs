@@ -16,7 +16,7 @@ namespace Demos
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new settings());
+            Application.Run(new allcontrols());
         }
     }
 }
