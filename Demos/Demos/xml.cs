@@ -103,7 +103,6 @@ namespace Demos
             foreach (XmlNode xNode in xDoc2.SelectNodes("People/Person"))
                 if (xNode.SelectSingleNode("Name").InnerText == textBox2.Text) xNode.ParentNode.RemoveChild(xNode);
             xDoc2.Save(savepath);
-
         }
     }
 }
