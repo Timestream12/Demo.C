@@ -74,6 +74,12 @@
     <Compile Include="ListView.Designer.cs">
       <DependentUpon>ListView.cs</DependentUpon>
     </Compile>
+    <Compile Include="md5_sha1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="md5_sha1.Designer.cs">
+      <DependentUpon>md5_sha1.cs</DependentUpon>
+    </Compile>
     <Compile Include="notifyicon.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -141,6 +147,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ListView.resx">
       <DependentUpon>ListView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="md5_sha1.resx">
+      <DependentUpon>md5_sha1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="notifyicon.resx">
       <DependentUpon>notifyicon.cs</DependentUpon>
