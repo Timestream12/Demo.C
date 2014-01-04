@@ -112,11 +112,29 @@
     <Compile Include="toolstrip statusstrip.Designer.cs">
       <DependentUpon>toolstrip statusstrip.cs</DependentUpon>
     </Compile>
+    <Compile Include="trackbar_numupdown.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="trackbar_numupdown.Designer.cs">
+      <DependentUpon>trackbar_numupdown.cs</DependentUpon>
+    </Compile>
     <Compile Include="TreeView.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="TreeView.Designer.cs">
       <DependentUpon>TreeView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="webbrowser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="webbrowser.Designer.cs">
+      <DependentUpon>webbrowser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="xml.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="xml.Designer.cs">
+      <DependentUpon>xml.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="allcontrols.resx">
       <DependentUpon>allcontrols.cs</DependentUpon>
@@ -148,8 +166,17 @@
     <EmbeddedResource Include="toolstrip statusstrip.resx">
       <DependentUpon>toolstrip statusstrip.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="trackbar_numupdown.resx">
+      <DependentUpon>trackbar_numupdown.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="TreeView.resx">
       <DependentUpon>TreeView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="webbrowser.resx">
+      <DependentUpon>webbrowser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="xml.resx">
+      <DependentUpon>xml.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
