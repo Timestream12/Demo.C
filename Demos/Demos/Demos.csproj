@@ -68,6 +68,31 @@
     <Compile Include="allcontrols.Designer.cs">
       <DependentUpon>allcontrols.cs</DependentUpon>
     </Compile>
+    <Compile Include="classDelegate.cs" />
+    <Compile Include="delegates.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="delegates.Designer.cs">
+      <DependentUpon>delegates.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DragAndDrop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DragAndDrop.Designer.cs">
+      <DependentUpon>DragAndDrop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="drawing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="drawing.Designer.cs">
+      <DependentUpon>drawing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Email Sender.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Email Sender.designer.cs">
+      <DependentUpon>Email Sender.cs</DependentUpon>
+    </Compile>
     <Compile Include="ListView.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -112,6 +137,12 @@
     <Compile Include="settings.Designer.cs">
       <DependentUpon>settings.cs</DependentUpon>
     </Compile>
+    <Compile Include="threading_demo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="threading_demo.designer.cs">
+      <DependentUpon>threading_demo.cs</DependentUpon>
+    </Compile>
     <Compile Include="toolstrip statusstrip.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -130,11 +161,23 @@
     <Compile Include="TreeView.Designer.cs">
       <DependentUpon>TreeView.cs</DependentUpon>
     </Compile>
+    <Compile Include="TripleDES.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TripleDES.Designer.cs">
+      <DependentUpon>TripleDES.cs</DependentUpon>
+    </Compile>
     <Compile Include="webbrowser.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="webbrowser.Designer.cs">
       <DependentUpon>webbrowser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="webclient_demo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="webclient_demo.designer.cs">
+      <DependentUpon>webclient_demo.cs</DependentUpon>
     </Compile>
     <Compile Include="xml.cs">
       <SubType>Form</SubType>
@@ -144,6 +187,18 @@
     </Compile>
     <EmbeddedResource Include="allcontrols.resx">
       <DependentUpon>allcontrols.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="delegates.resx">
+      <DependentUpon>delegates.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DragAndDrop.resx">
+      <DependentUpon>DragAndDrop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="drawing.resx">
+      <DependentUpon>drawing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Email Sender.resx">
+      <DependentUpon>Email Sender.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ListView.resx">
       <DependentUpon>ListView.cs</DependentUpon>
@@ -172,6 +227,9 @@
     <EmbeddedResource Include="settings.resx">
       <DependentUpon>settings.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="threading_demo.resx">
+      <DependentUpon>threading_demo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="toolstrip statusstrip.resx">
       <DependentUpon>toolstrip statusstrip.cs</DependentUpon>
     </EmbeddedResource>
@@ -181,8 +239,14 @@
     <EmbeddedResource Include="TreeView.resx">
       <DependentUpon>TreeView.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="TripleDES.resx">
+      <DependentUpon>TripleDES.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="webbrowser.resx">
       <DependentUpon>webbrowser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="webclient_demo.resx">
+      <DependentUpon>webclient_demo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="xml.resx">
       <DependentUpon>xml.cs</DependentUpon>

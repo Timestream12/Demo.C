@@ -16,7 +16,7 @@ namespace Demos
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new md5_sha1());
+            Application.Run(new drawing());
         }
     }
 }
