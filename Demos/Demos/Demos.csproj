@@ -52,6 +52,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Speech" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -136,6 +137,12 @@
     </Compile>
     <Compile Include="settings.Designer.cs">
       <DependentUpon>settings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Speaker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Speaker.Designer.cs">
+      <DependentUpon>Speaker.cs</DependentUpon>
     </Compile>
     <Compile Include="threading_demo.cs">
       <SubType>Form</SubType>
@@ -226,6 +233,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="settings.resx">
       <DependentUpon>settings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Speaker.resx">
+      <DependentUpon>Speaker.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="threading_demo.resx">
       <DependentUpon>threading_demo.cs</DependentUpon>
