@@ -44,7 +44,7 @@ namespace Demos
             try
             {
                 sRecognize.RequestRecognizerUpdate();
-                sRecognize.Loea(gr);
+                sRecognize.LoadGrammar(gr);
                 sRecognize.SpeechRecognized += sRecognize_SpeechRecognized;
                 sRecognize.SetInputToDefaultAudioDevice();
                 sRecognize.RecognizeAsync(RecognizeMode.Multiple);
