@@ -1,7 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio Express 2013 for Windows Desktop
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demos", "Demos\Demos.csproj", "{0222F5C5-215D-4777-BEA8-BDFBAD9F33D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaintProgram", "PaintProgram\PaintProgram.csproj", "{F1E4EA5A-EB75-42FC-A22B-BAC5B51D2007}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +17,10 @@ Global
 		{0222F5C5-215D-4777-BEA8-BDFBAD9F33D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0222F5C5-215D-4777-BEA8-BDFBAD9F33D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0222F5C5-215D-4777-BEA8-BDFBAD9F33D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1E4EA5A-EB75-42FC-A22B-BAC5B51D2007}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1E4EA5A-EB75-42FC-A22B-BAC5B51D2007}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1E4EA5A-EB75-42FC-A22B-BAC5B51D2007}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1E4EA5A-EB75-42FC-A22B-BAC5B51D2007}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -59,6 +59,7 @@
             this.Controls.Add(this.panel1);
             this.Name = "drawing";
             this.Text = "drawing";
+            this.Load += new System.EventHandler(this.drawing_Load);
             this.ResumeLayout(false);
 
         }

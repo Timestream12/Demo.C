@@ -90,5 +90,10 @@ namespace Demos
         {
             //SelectColor();
         }
+
+        private void drawing_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
