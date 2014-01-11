@@ -94,6 +94,12 @@
     <Compile Include="Email Sender.designer.cs">
       <DependentUpon>Email Sender.cs</DependentUpon>
     </Compile>
+    <Compile Include="CapturingScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CapturingScreen.Designer.cs">
+      <DependentUpon>CapturingScreen.cs</DependentUpon>
+    </Compile>
     <Compile Include="ListView.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -130,6 +136,12 @@
     <Compile Include="openfileswithapp.Designer.cs">
       <DependentUpon>openfileswithapp.cs</DependentUpon>
     </Compile>
+    <Compile Include="OverloadingOperators.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OverloadingOperators.Designer.cs">
+      <DependentUpon>OverloadingOperators.cs</DependentUpon>
+    </Compile>
     <Compile Include="Picture Box.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -155,6 +167,12 @@
     </Compile>
     <Compile Include="Speaker.Designer.cs">
       <DependentUpon>Speaker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SplashScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SplashScreen.Designer.cs">
+      <DependentUpon>SplashScreen.cs</DependentUpon>
     </Compile>
     <Compile Include="threading_demo.cs">
       <SubType>Form</SubType>
@@ -225,6 +243,9 @@
     <EmbeddedResource Include="Email Sender.resx">
       <DependentUpon>Email Sender.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CapturingScreen.resx">
+      <DependentUpon>CapturingScreen.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ListView.resx">
       <DependentUpon>ListView.cs</DependentUpon>
     </EmbeddedResource>
@@ -239,6 +260,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="notifyicon.resx">
       <DependentUpon>notifyicon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OverloadingOperators.resx">
+      <DependentUpon>OverloadingOperators.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Picture Box.resx">
       <DependentUpon>Picture Box.cs</DependentUpon>
@@ -260,6 +284,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Speaker.resx">
       <DependentUpon>Speaker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashScreen.resx">
+      <DependentUpon>SplashScreen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="threading_demo.resx">
       <DependentUpon>threading_demo.cs</DependentUpon>
