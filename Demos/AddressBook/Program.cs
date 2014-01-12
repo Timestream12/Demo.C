@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Demos
+namespace AddressBook
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace Demos
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new IEnumerableIEnumerator());
+            Application.Run(new Form1());
         }
     }
 }

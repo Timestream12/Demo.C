@@ -100,6 +100,18 @@
     <Compile Include="CapturingScreen.Designer.cs">
       <DependentUpon>CapturingScreen.cs</DependentUpon>
     </Compile>
+    <Compile Include="IEnumerableDemo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IEnumerableDemo.Designer.cs">
+      <DependentUpon>IEnumerableDemo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IEnumerableIEnumerator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IEnumerableIEnumerator.Designer.cs">
+      <DependentUpon>IEnumerableIEnumerator.cs</DependentUpon>
+    </Compile>
     <Compile Include="ListView.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -123,6 +135,12 @@
     </Compile>
     <Compile Include="myButton.Designer.cs">
       <DependentUpon>myButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NotifyFileChange.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NotifyFileChange.Designer.cs">
+      <DependentUpon>NotifyFileChange.cs</DependentUpon>
     </Compile>
     <Compile Include="notifyicon.cs">
       <SubType>Form</SubType>
@@ -246,6 +264,12 @@
     <EmbeddedResource Include="CapturingScreen.resx">
       <DependentUpon>CapturingScreen.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="IEnumerableDemo.resx">
+      <DependentUpon>IEnumerableDemo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IEnumerableIEnumerator.resx">
+      <DependentUpon>IEnumerableIEnumerator.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ListView.resx">
       <DependentUpon>ListView.cs</DependentUpon>
     </EmbeddedResource>
@@ -257,6 +281,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="myButton.resx">
       <DependentUpon>myButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NotifyFileChange.resx">
+      <DependentUpon>NotifyFileChange.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="notifyicon.resx">
       <DependentUpon>notifyicon.cs</DependentUpon>

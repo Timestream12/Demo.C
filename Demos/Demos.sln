@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demos", "Demos\Demos.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaintProgram", "PaintProgram\PaintProgram.csproj", "{F1E4EA5A-EB75-42FC-A22B-BAC5B51D2007}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HangManGame", "HangManGame\HangManGame.csproj", "{171CF3D3-3137-443F-8852-21A212388BFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddressBook", "AddressBook\AddressBook.csproj", "{526FBDBF-B532-4EEC-9AE2-F87A4E3BF121}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{F1E4EA5A-EB75-42FC-A22B-BAC5B51D2007}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1E4EA5A-EB75-42FC-A22B-BAC5B51D2007}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1E4EA5A-EB75-42FC-A22B-BAC5B51D2007}.Release|Any CPU.Build.0 = Release|Any CPU
+		{171CF3D3-3137-443F-8852-21A212388BFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{171CF3D3-3137-443F-8852-21A212388BFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{171CF3D3-3137-443F-8852-21A212388BFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{171CF3D3-3137-443F-8852-21A212388BFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{526FBDBF-B532-4EEC-9AE2-F87A4E3BF121}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{526FBDBF-B532-4EEC-9AE2-F87A4E3BF121}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{526FBDBF-B532-4EEC-9AE2-F87A4E3BF121}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{526FBDBF-B532-4EEC-9AE2-F87A4E3BF121}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
